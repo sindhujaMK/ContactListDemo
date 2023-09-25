@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ContactListDemo</string>
+    <string name="ascending_order">Ascending order</string>
+    <string name="descending_order">Descending order</string>
+    <string name="back_button">Back Button</string>
+    <string name="user_name">User Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="settings">Settings</string>
+    <string name="user_mobile_number">User Mobile Number</string>
+    <string name="get_user_phone_number">Get User Phone Number</string>
+    <string name="email_id">Email Id</string>
+    <string name="birthday_date">Birthday Date</string>
+
+</resources>

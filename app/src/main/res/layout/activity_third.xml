@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingVertical="20dp"
+    tools:context=".ThirdActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivSecUserImage"
+            android:layout_width="130dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_baseline_account_circle_24" />
+
+        <TextView
+            android:id="@+id/tvSecUserName"
+            android:layout_toEndOf="@id/ivSecUserImage"
+            android:textSize="24sp"
+            android:text="@string/user_mobile_number"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!--android:text="Get User Name"-->
+
+        <TextView
+            android:id="@+id/tvSecPhoneNum"
+            android:text="@string/get_user_phone_number"
+            android:textSize="24sp"
+            android:layout_toEndOf="@id/ivSecUserImage"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/tvSecUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvEmailId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email_id"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"/>
+
+    <TextView
+        android:id="@+id/tvBirthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/birthday_date"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"/>
+
+</LinearLayout>
